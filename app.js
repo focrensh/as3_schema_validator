@@ -11,7 +11,8 @@ const declarationfile = process.argv[2]
 
 ajv.addFormat('f5bigip', (item) => {
     const regex = RegExp(/^\x2f[^\x00-\x19\x22#'*<>?\x5b-\x5d\x7b-\x7d\x7f]+$/)
-    if (!f5bigip.includes(item) || !regex.test(item)) {
+    // if (!f5bigip.includes(item) || !regex.test(item)) {
+    if (!regex.test(item)) {
         return false
     }
     return true
