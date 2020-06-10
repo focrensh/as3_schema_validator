@@ -1,5 +1,5 @@
 {
-  "name": "as3schema",
+  "name": "as3_schema_validator",
   "version": "1.0.0",
   "description": "validates as3 schema",
   "main": "app.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Forrest Crenshaw",
   "license": "ISC",
   "dependencies": {
     "ajv": "^6.12.2",
@@ -16,6 +16,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://temp"
+    "url": "git://github.com/focrensh/as3_schema_validator"
   }
 }
