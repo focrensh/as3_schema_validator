@@ -1,0 +1,13 @@
+# action.yml
+name: 'Validate AS3'
+description: 'Validates AS3 declaration against schema'
+inputs:
+  declaration:
+    description: 'AS3 declaration file'
+    required: true
+    default: 'as3.json'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.declaration }}

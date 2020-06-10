@@ -1,0 +1,21 @@
+{
+  "name": "as3schema",
+  "version": "1.0.0",
+  "description": "validates as3 schema",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^6.12.2",
+    "is-ip": "^3.1.0",
+    "request": "^2.88.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://temp"
+  }
+}

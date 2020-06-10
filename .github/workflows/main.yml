@@ -1,0 +1,17 @@
+on: [push]
+
+jobs:
+  as3schema:
+    name: Validate AS3 Schema
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Validate AS3 Schema
+        id: hello
+        uses: ./
+        with:
+          declaration: 'as3.json'
+      # Use the output from the `hello` step
+      # - name: Get the output time
+      #   run: echo "The time was ${{ steps.hello.outputs.time }}"
