@@ -3,6 +3,7 @@ name: 'as3_schema_validator'
 description: 'Validates AS3 declaration against schema'
 branding:
   icon: 'check-square'
+  color: 'blue'
 inputs:
   declaration:
     description: 'AS3 declaration file'
