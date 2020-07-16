@@ -77,7 +77,7 @@ ajv.addFormat('f5long-id', (item) => {
 const getSchema = (callback) => {
     const url = 'https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/master/schema/latest/as3-schema.json'
     
-    request({ url, json: true }, (error, {body}) => {
+    request({ url, json: true }, (error, { body }) => {
         if (error){
             callback('Unable to get schema from github')
         } else {
