@@ -10,7 +10,7 @@
   "author": "Forrest Crenshaw",
   "license": "ISC",
   "dependencies": {
-    "ajv": "^6.12.2",
+    "ajv": "^6.12.3",
     "is-ip": "^3.1.0",
     "request": "^2.88.2"
   },
